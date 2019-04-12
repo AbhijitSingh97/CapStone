@@ -1,11 +1,10 @@
 import sys
 #hello
 def helloworld(out):
-	out.write('hello Aman')
-	out.write('hello Apar')
+	out.write('hello Worlds')
+	out.write('ABCDEFG')
 	print("Hello World")
 
-print("Hello Amen")
-print("Hello Aman")
+print("Hello World!")
 
 
