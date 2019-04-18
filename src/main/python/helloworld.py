@@ -5,6 +5,6 @@ def helloworld(out):
 	out.write('ABCDEFG')
 	print("Hello World")
 
-print("Hello World! 1 2 ka 4")
+print("Hello World! 1 2 ka 4 and ...")
 
 
