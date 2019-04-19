@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+
+<body>
+
+<form action="/action_page.php">   		<!-- Form -->
+<table>  
+<tr>  
+    <td class="tdLabel"><label for="register_name" >Enter Product name:</label></td>  
+    <td><input type="text" name="name" value="" id="register_name" style="width:160px"/></td>  
+</tr>  
+<tr>  
+    <td class="tdLabel"><label for="register_category" >Enter Products Category:</label></td>  <!--Here will be the category/ dropdown option-->
+    <td><input type="password" name="password" id="register_password" style="width:160px"/></td>  
+</tr>  
+<tr>  <!--Another property to classify the product into a class...-->
+    <td class="tdLabel"><label for="register_email" >Enter 3rd property:</label></td>   
+    <td  
+><input type="email" name="email" value="" id="register_email" style="width:160px"/></td>  
+</tr>  
+  
+<tr>  
+    <td class="tdLabel"><label for="optionsandcategories" >Select Genre:</label></td>  
+    <td><select name="country" id="optionsandcategories" style="width:160px">  
+    <option value="Food">Food</option>  
+    <option value="Electronics/Gadgets">Electronics/Gadgets</option>  
+    <option value="Furniture">Furniture</option>  
+    <option value="Utility">Utility</option>  
+    <option value="Vehicle">Vehicle</option>  
+</select>  
+</td>  
+</tr>  
+<tr>  
+    <td class="tdLabel">
+    <input list="options" name="product category">
+  <datalist id="options">
+    <option value="Food">
+    <option value="Electronic Gadgets">
+    <option value="Furnitures">
+    <option value="Utilities">
+    <option value="Vehicle">
+  </datalist>
+    </td>  
+    <td>
+    	<input type="submit">
+</td>  
+</tr> 
+</table>  
+</form> 
+
+</body>
+</html>
